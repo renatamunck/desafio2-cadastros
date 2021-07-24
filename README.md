@@ -7,3 +7,5 @@ Criar um sistema e-commerce para inventário de produtos e dados de clientes.
 <h2>Entregando</h2>
 Uma página desenvolvida usando HTML,CSS e Javascript contando cadastro de clientes e produtos e 
 armazenando dados no <i>Localstorage</i> .
+
+Aqui está o projeto! <a href="https://makeuplovershc.netlify.app/">Make Up Lovers</a>
