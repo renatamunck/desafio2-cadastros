@@ -1,0 +1,64 @@
+<html lang="pt-bt">
+<head>
+   
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Cadastro de Produtos</title>
+
+</head>
+
+<body class="roupa2">
+        
+    <header> 
+        <div class="container">
+            
+            <div>
+                <h3>
+                    <a class="back" href="index.html">Voltar</a>
+                </h3>
+            </div>
+        </div>
+    </header> 
+    
+    <div class="box">
+            <div class="box-item">
+                <h3>Cadastrar Produtos</h3>
+                
+                <div class="item">
+                    <input type="text" id="nameProduct" placeholder="" required>
+                    <label id="labelNameProduct" for="nameProduct">Nome do produto</label>
+                </div>
+
+                <div class="item">
+                    <input type="text" id="price" placeholder="" required >
+                    <label id="labelPrice" for="price">Preço</label>
+                </div>
+
+                <div class="item">
+                    <input type="text" id="size" placeholder="" required >
+                    <label label="labelSize" for="size">Tamanho</label>
+                </div>
+
+                <div class="item">
+                    <input type="text" id="description" placeholder="" required>
+                    <label id="labelDescription"  for="description" >Descrição</label>
+                </div>
+
+                    <div class="btn">
+                        <button onclick="salvarConteudoStorage()" > Cadastrar </button>
+                    </div>
+            </div>
+    </div>
+</div>
+    
+
+
+
+  
+
+<script src="js/cadastroproduto.js"></script>
+
+</body>
+</html>
